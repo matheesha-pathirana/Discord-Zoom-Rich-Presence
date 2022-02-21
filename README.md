@@ -6,7 +6,7 @@ Since i don't have access to the Zoom source code, this is an external app that 
 ### You will need:
 - Python 3.9
 ### Installing dependencies:
-- `pip install subprocess`
+- `pip install subprocess.run`
 - `pip install pypresence`
 - `pip install colored`
 

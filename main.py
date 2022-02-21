@@ -12,7 +12,7 @@ running = False
 def run_rpc():
     print("%sZoom has started, connecting Rich Presence!%s" % (fg(46), attr(0)))
     rpc.update(state="In a Zoom Meeting", large_image="zoom_meeting", start=time.time())
-    
+
 def dc_rpc():
     print("%sZoom has been closed, disconnecting Rich Presence...%s" % (fg(1), attr(0)))
     rpc.clear()
