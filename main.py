@@ -3,7 +3,7 @@ from pypresence import *
 import time
 from colored import fg, bg, attr
 
-rpc = Presence("944039007258554379")
+rpc = Presence("") #your application client ID
 rpc.connect()
 print("%sZoom Rich presence has started! Created by matheesha#2006%s" % (fg(45), attr(0)))
 
