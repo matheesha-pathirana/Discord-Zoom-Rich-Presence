@@ -1,3 +1,4 @@
+import os
 import tkinter as tk
 import tkinter.font as tkFont
 import subprocess
@@ -34,8 +35,6 @@ def dc_rpc():
 # time.sleep(1)
 #
 
-def close():
-    exit()
 
 class App:
     def __init__(self, root):
@@ -96,7 +95,7 @@ class App:
 
 
     def GButton_364_command(self):
-        close()
+        exit()
 
 if __name__ == "__main__":
     root = tk.Tk()
